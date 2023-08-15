@@ -1,0 +1,13 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.menu--items {
+  display: flex;
+  gap: 1rem;
+
+  .active {
+    background-color: #237fb1;
+    color: #fff;
+  }
+}

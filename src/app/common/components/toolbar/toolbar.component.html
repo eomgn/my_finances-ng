@@ -1,0 +1,15 @@
+<mat-toolbar>
+  <span>Minhas finanças</span>
+  <span class="example-spacer"></span>
+  <div class="menu--items">
+    <button
+      mat-raised-button
+      [routerLink]="m.router"
+      routerLinkActive="active"
+      *ngFor="let m of menu"
+    >
+      <mat-icon>{{ m.icon }}</mat-icon>
+      {{ m.title }}
+    </button>
+  </div>
+</mat-toolbar>
